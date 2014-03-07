@@ -47,8 +47,19 @@ string WordsList::GetWord()
 map<string, int> *WordsList::GetCities()
 {
 	return &this->cities;
+	//someting changed
+	int i = 0;
 }
 
 WordsList::~WordsList()
 {
 }
+/*
+git init - ініціюю пустий репозиторій в папці з проектом
+git add - додати
+git status - перевірити, які папки додані і файли
+git commit -am "first commit"
+git log - що коли було додано
+git remote add origin https://... вказати куди відсилати
+git remote -v перевірка
+*/
